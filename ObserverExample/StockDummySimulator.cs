@@ -14,6 +14,7 @@ namespace ObserverExample
 
         public IEnumerator<Stock> GetEnumerator()
         {
+            Console.WriteLine("start iterator");
             for (int i = 0; i < 10; i++)
             {
                 string n = names[rnd.Next(0, 3)];
@@ -24,7 +25,7 @@ namespace ObserverExample
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return GetEnumerator();
         }
     }
 

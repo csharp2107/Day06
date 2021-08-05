@@ -37,5 +37,23 @@ namespace ObserverExample.Classes
         {
             observers.Remove(observer);
         }
+
+        public void Subscribe(IObserver<T> observer)
+        {
+            if (!observers.Contains(observer))
+            {
+                observers.Add(observer);
+            }
+        }
+
+        public void Unsubscribe(IObserver<T> observer)
+        {
+            if (observers.Contains(observer))
+            {
+                observers.Remove(observer);
+            }
+        }
+
+
     }
 }

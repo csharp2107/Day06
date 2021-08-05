@@ -10,6 +10,7 @@ namespace ObserverExample
     {
         static void Main(string[] args)
         {
+            Simulator1.Run();
         }
     }
 }
