@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverExample", "Observer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactiveExample", "ReactiveExample\ReactiveExample.csproj", "{B796CC7B-6F38-4BDD-B1FB-7F7E50D21E5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverCollection", "ObserverCollection\ObserverCollection.csproj", "{5C46CCE9-8C0D-4144-AB5E-A12CC7D54F22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B796CC7B-6F38-4BDD-B1FB-7F7E50D21E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B796CC7B-6F38-4BDD-B1FB-7F7E50D21E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B796CC7B-6F38-4BDD-B1FB-7F7E50D21E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C46CCE9-8C0D-4144-AB5E-A12CC7D54F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C46CCE9-8C0D-4144-AB5E-A12CC7D54F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C46CCE9-8C0D-4144-AB5E-A12CC7D54F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C46CCE9-8C0D-4144-AB5E-A12CC7D54F22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
